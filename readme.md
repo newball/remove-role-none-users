@@ -13,10 +13,12 @@ Before running this utility, *perform a backup of your WordPress database!*
 # Instructions
 
 - Edit the removenone.php file and  enter the database information, related to your WordPress installation. The lines to edit look like:
-	`$dbHost = "localhost"; // Enter your database Host
-	$dbUser = "root"; // Enter your database User
-	$dbPass = "root"; // Enter your database password
-	$db = "wordpress"; // Enter your database`
+
+	`$dbHost = "localhost"; // Enter your database Host`  	
+	`$dbUser = "root"; // Enter your database User`  
+	`$dbPass = "root"; // Enter your database password`  
+	`$db = "wordpress"; // Enter your database`  
+	
 - Place removenone.php on a server running WordPress
 - Run the utility by visiting it's location in your web browser (i.e. your-domain-name.com/removenone.php)
 - Dance and rejoice
